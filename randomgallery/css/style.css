@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: 
+      url('images/filter-box.png'),
+      url('images/img01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .date-wapper {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 56px;
+  }
+  
+  section {
+    text-shadow: 1px 1px 4px rgba(0,0,0, 0.7);
+  }
+  
+  section h1 {
+    font-size: 48px;
+  }
+  .author{
+    font-size: 20px;
+  }
